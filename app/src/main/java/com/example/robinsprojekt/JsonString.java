@@ -18,7 +18,7 @@ public class JsonString {
             JSONArray jArray = new JSONArray((rsc));
             for (int i = 0; i < jArray.length(); i++) {
                 JSONObject jObject = jArray.getJSONObject(i);
-                String id = jObject.getString("ID");
+                String id = jObject.getString("name");
                 String name = jObject.getString("name");
 
                 data.add(new String[]{id, name});
