@@ -45,11 +45,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         mData = myDataset;
     }
 
-    public void setData(List<String[]> data) {
-        mData = data;
-        notifyDataSetChanged();
-    }
-
     // Create new views (invoked by the layout manager)
     @Override
     public MyAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
