@@ -18,10 +18,11 @@ public class JsonString {
             JSONArray jArray = new JSONArray((rsc));
             for (int i = 0; i < jArray.length(); i++) {
                 JSONObject jObject = jArray.getJSONObject(i);
-                String id = jObject.getString("name");
                 String name = jObject.getString("name");
+                String price = jObject.getString("company");
+                String note = jObject.getString("auxdata");
 
-                data.add(new String[]{id, name});
+                data.add(new String[]{name, price, note});
             }
         } catch (JSONException e) {
             e.printStackTrace();
