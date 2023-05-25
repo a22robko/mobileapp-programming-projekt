@@ -1,2 +1,3 @@
 # mobileapp-programming-projekt
-![image](https://github.com/a22robko/mobileapp-programming-projekt/assets/129367092/4da4fae1-afe9-41ad-aade-b6e0bbd27026.png) 
+
+<img width="204" alt="Bild1" src="https://github.com/a22robko/mobileapp-programming-projekt/assets/129367092/d92f9f3c-87ba-486d-9dce-964e293069a0">
